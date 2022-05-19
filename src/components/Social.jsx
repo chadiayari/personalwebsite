@@ -1,18 +1,16 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaLinkedinIn,
-  FaPinterestP,
+  FaGithub,
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+  { Social: <FaFacebookF />, link: "https://www.facebook.com/chadi.ayari.1/" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/ayari_chadi/" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/chadi-ayari-7a11a6157/" },
+  { Social: <FaGithub />, link: "https://github.com/chadiayari" },
 ];
 
 const Social = () => {

@@ -28,8 +28,8 @@ const Header = () => {
             <NavLink to="/">
               <img
                 className="navbar-brand"
-                src="img/logo/logo-light.svg"
-                alt="brand logo"
+                src="img/logo/logo.png"
+                alt="Chadi's logo"
               />
             </NavLink>
             {/* / */}

@@ -31,11 +31,16 @@ const HeaderFluid = () => {
           <div className=" header-transparent">
             {/* Brand */}
             <Link to="/">
-              <img
+              {/* <img
                 className="navbar-brand"
-                src="img/logo/logo-light.svg"
+                src="img/logo/logo.png"
                 alt="brand logo"
-              />
+              /> */}
+              <li>
+                  <a className="nav-link" href="#home" onClick={handleClick}>
+                    <span>Chadi</span>
+                  </a>
+                </li>
             </Link>
             {/* / */}
             {/* Mobile Toggle */}

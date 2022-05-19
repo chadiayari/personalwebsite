@@ -11,7 +11,7 @@ const Slider = () => {
         className="home-banner overlay "
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/banner/bg-1.jpg"
+            process.env.PUBLIC_URL + "img/banner/bg.png"
           })`,
         }}
       >
@@ -23,15 +23,16 @@ const Slider = () => {
               <div className="hb-typo ">
                 <h1 className="font-alt">
                   Hello,
-                  <br /> I'm Raquel Murillo a <br /> Product{" "}
+                  <br /> I'm Chadi Ayari <br /> a{" "}
                   <TextLoop>
-                    <span className="loop-text">Developer</span>
-                    <span className="loop-text"> Designer</span>
+                    <span className="loop-text">Software</span>
+                    <span className="loop-text"> Mobile</span>
                   </TextLoop>{" "}
+                  Engineer
                 </h1>
                 <div className="btn-bar mt-4">
                   <a className="px-btn px-btn-theme btn-md" href="#about">
-                    See Who I'M
+                    See Who I AM
                   </a>
                 </div>
               </div>

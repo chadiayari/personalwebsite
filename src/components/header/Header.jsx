@@ -28,8 +28,8 @@ const Header = () => {
             <NavLink to="/">
               <img
                 className="navbar-brand"
-                src="img/logo/logo-light.svg"
-                alt="brand logo"
+                src="img/logo/logo.png"
+                alt="Chadi's logo"
               />
             </NavLink>
             {/* / */}
@@ -70,7 +70,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a className="nav-link" href="#about" onClick={handleClick}>
-                    <span>About Us</span>
+                    <span>About Me</span>
                   </a>
                 </li>
                 <li>

@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/header/HeaderFluid";
 import Slider from "../../components/slider/SliderTwo";
-import About from "../../components/about/AboutFour";
-import Service from "../../components/service/ServiceTwo";
+import About from "../../components/about/About";
+import Service from "../../components/service/Service";
 import Skills from "../../components/skills/Skills";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Testimonial from "../../components/testimonial/Testimonial";
@@ -12,7 +12,7 @@ import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeTwo = () => {
-  useDocumentTitle("Home Dark || React Personal Portfolio Template");
+  useDocumentTitle("Chadi's Personal Portfolio");
   return (
     <div className="home-dark">
       <Header />
@@ -35,8 +35,8 @@ const HomeTwo = () => {
             <div className="col-lg-7">
               <h3 className="font-alt">My Services</h3>
               <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
+                I design and develop services for customers,
+                specializing in creating stylish websites, modern mobile applications,
                 and online stores.
               </p>
             </div>
@@ -106,7 +106,7 @@ const HomeTwo = () => {
             <div className="col-lg-6 my-3">
               <div className="contct-form">
                 <div className="sm-title">
-                  <h4 className="font-alt">Contact us</h4>
+                  <h4 className="font-alt">Contact me</h4>
                 </div>
                 {/* End .sm-title */}
                 <Contact />
@@ -128,9 +128,9 @@ const HomeTwo = () => {
                     <i className="ti-map"></i>
                   </div>
                   <span className="media-body">
-                    123 Stree New York City , <br />
-                    United States Of America <br />
-                    NY 750065.
+                    Pillai Hostel, Panvel<br />
+                    Navi Mumbai <br />
+                    India 410206.
                   </span>
                 </div>
                 {/* End media */}
@@ -139,10 +139,10 @@ const HomeTwo = () => {
                   <div className="icon">
                     <i className="ti-email"></i>
                   </div>
-                  <span className="media-body">
-                    support@domain.com
-                    <br />
-                    info@domain.com
+                  <span className="media-body">                    
+
+                    chadiayari@outlook.com
+                    
                   </span>
                 </div>
                 {/* End media */}
@@ -151,10 +151,9 @@ const HomeTwo = () => {
                   <div className="icon">
                     <i className="ti-mobile"></i>
                   </div>
-                  <span className="media-body">
-                    +044 966 9696 636
-                    <br />
-                    +044 966 9696 636
+                  <span className="media-body">                    <br />
+
+                    +216 53 180 256
                   </span>
                 </div>
                 {/* End media */}

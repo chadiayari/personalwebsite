@@ -337,7 +337,7 @@
     overflow: hidden;
     box-shadow: $px-shadow;
     background: #fff5ec;
-    padding: 10px;
+    padding: 5px;
     img {
       position: relative;
     }
@@ -677,6 +677,10 @@
         border-top: 1px dashed rgba($px-white, 0.2);
       }
     }
+    i {
+      font-size: 13px !important;
+      font-weight: 300;
+    }
     span {
       display: inline-block;
       vertical-align: top;
@@ -695,6 +699,12 @@
     p {
       margin: 0;
       color: rgba($px-white, 0.8);
+    }
+    .university-link{
+      color: white;
+    }
+    .university-link:hover{
+      color:#c1c1c1;
     }
   }
   .skill-box {

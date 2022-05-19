@@ -6,48 +6,58 @@ const Skills = () => {
       <div className="row">
         <div className="col-lg-4 my-3">
           <div className="sm-title">
-            <h4 className="font-alt">Education</h4>
+            <h4 className="font-alt">Work Experience</h4>
           </div>
-          <ul className="aducation-box theme-bg">
+          <ul className="aducation-box dark-bg">
             <li>
-              <span className="dark-bg">2010-2012</span>
-              <h6>Front-end Engineer</h6>
-              <p>International Design Institute</p>
+              <span className="theme-bg">01/2022-Present</span>
+              <h6>
+                Mobile Engineer <i>(half time, remote)</i>
+              </h6>
+              <p>Towards Zero Waste, Sweden</p>
             </li>
             <li>
-              <span className="dark-bg">2010-2012</span>
-              <h6>Graphic Designer</h6>
-              <p>Rio Design Institute</p>
+              <span className="theme-bg">02/2022-Present</span>
+              <h6>
+                Mobile Engineer <i>(full time, physical presence)</i>
+              </h6>
+              <p>Pillai College, India</p>
             </li>
             <li>
-              <span className="dark-bg">2010-2012</span>
-              <h6>Visual Designer</h6>
-              <p>Jakarta Design Institute</p>
+              <span className="theme-bg">06/2021-09/2021</span>
+              <h6>Backend Software Engineer</h6>
+              <p>Bee IT, Serbia</p>
+            </li>
+            <li>
+              <span className="theme-bg">07/2020-09/2020</span>
+              <h6>Frontend Web Developer</h6>
+              <p>ElBoita, Tunisia</p>
             </li>
           </ul>
           {/* End  .aducation-box */}
         </div>
         {/* End .col */}
-
         <div className="col-lg-4 my-3">
           <div className="sm-title">
-            <h4 className="font-alt">Experience</h4>
+            <h4 className="font-alt">Education</h4>
           </div>
-          <ul className="aducation-box dark-bg">
+          <ul className="aducation-box theme-bg">
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Software Engineer</h6>
-              <p>Furious Design Institute</p>
+              <span className="dark-bg">2017-2022</span>
+              <h6>Software Engineering degree</h6>
+              <p>
+                <a
+                  className="university-link"
+                  href="http://www.issatso.rnu.tn/fo/index.php"
+                >
+                  ISSAT Sousse, Tunisia
+                </a>
+              </p>
             </li>
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Android Developer</h6>
-              <p>Ketlimte Design Ltd.</p>
-            </li>
-            <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Rubby Developer</h6>
-              <p>Randara Institute Academy</p>
+              <span className="dark-bg">2013-2017</span>
+              <h6>Mathematics High School Degree</h6>
+              <p>LMMN Nabel, Tunisia</p>
             </li>
           </ul>
           {/* End  .aducation-box */}
@@ -56,73 +66,96 @@ const Skills = () => {
 
         <div className="col-lg-4 ml-auto my-3">
           <div className="sm-title">
-            <h4 className="font-alt">My Skills</h4>
+            <h4 className="font-alt">Skills</h4>
           </div>
           <div className="gray-bg skill-box">
             <div className="skill-lt">
-              <h6>React js</h6>
+              <h6>Flutter</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 92 + "%" }}
+                  style={{ width: 95 + "%" }}
                 >
-                  <span>92%</span>
+                  <span>95%</span>
                 </div>
               </div>
             </div>
             {/* End skill-lt */}
 
             <div className="skill-lt">
-              <h6>WordPress</h6>
+              <h6>ReactJS</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 75 + "%" }}
+                  style={{ width: 85 + "%" }}
                 >
-                  <span>75%</span>
+                  <span>85%</span>
                 </div>
               </div>
             </div>
             {/* End skill-lt */}
 
             <div className="skill-lt">
-              <h6>Vue js</h6>
+              <h6>NodeJS</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 86 + "%" }}
+                  style={{ width: 85 + "%" }}
                 >
-                  <span>86%</span>
+                  <span>85%</span>
                 </div>
               </div>
             </div>
             {/* End skill-lt */}
 
             <div className="skill-lt">
-              <h6>UI/UX</h6>
+              <h6>MongoDB</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 88 + "%" }}
+                  style={{ width: 90 + "%" }}
                 >
-                  <span>88%</span>
+                  <span>90%</span>
                 </div>
               </div>
             </div>
             {/* End skill-lt */}
 
             <div className="skill-lt">
-              <h6>CSS3</h6>
+              <h6>Cloud Services</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 92 + "%" }}
+                  style={{ width: 80 + "%" }}
                 >
-                  <span>92%</span>
+                  <span>80%</span>
                 </div>
               </div>
             </div>
             {/* End skill-lt */}
+            <div className="skill-lt">
+              <h6>DevOps</h6>
+              <div className="skill-bar">
+                <div
+                  className="skill-bar-in theme-bg"
+                  style={{ width: 85 + "%" }}
+                >
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            {/* End skill-lt */}
+            <div className="skill-lt">
+              <h6>Public Speaking</h6>
+              <div className="skill-bar">
+                <div
+                  className="skill-bar-in theme-bg"
+                  style={{ width: 95 + "%" }}
+                >
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         {/* End .col */}

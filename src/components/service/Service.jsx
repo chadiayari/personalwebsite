@@ -3,61 +3,75 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "ti-ruler-pencil",
-    title: "Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    no: "01",
+    service: "RESPONSIVE LAYOUT",
+    title: "Responsive layout design meeting clients needs.",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-image",
-    title: "Graphic",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    no: "02",
+    service: "DEVELOPMENT",
+    title: "Development gorgeous graphic design meeting clients needs.",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-layout",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    no: "03",
+    service: "GRAPHIC",
+    title: "Graphic gorgeous design meeting clients needs.",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-brush-alt",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    no: "04",
+    service: "WEB DESIGN",
+    title: "Web Design gorgeous graphic design meeting clients needs.",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-camera",
-    title: "Photography",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    no: "05",
+    service: "MOTION GRAPHY",
+    title: "Motion Graphy design meeting clients needs.",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-world",
-    title: "Mobile apps",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    no: "06",
+    service: "PHOTOGRAPHY",
+    title: "Photography design meeting clients needs.",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
 ];
 
-export default function Service() {
+const ServiceTwo = () => {
   return (
     <>
-      <div className="row">
+      <div className="row gy-4">
         {ServiceContent.map((val, i) => (
-          <div className="col-md-6 col-lg-4 my-3" key={i}>
-            <div className="feature-box-01">
+          <div className="col-sm-6 col-lg-4" key={i}>
+            <div className="feature-box-02">
               <div className="icon">
                 <i className={val.icon}></i>
               </div>
-              <div className="feature-content">
-                <h5>{val.title}</h5>
-                <p>{val.descriptions}</p>
-              </div>
+              <h6>
+                <span>{val.no}.</span> {val.service}
+              </h6>
+              <h5>{val.title}</h5>
+              <p>{val.desc}</p>
             </div>
-            {/* End .feature-box-01 */}
           </div>
         ))}
       </div>
     </>
   );
-}
+};
+
+export default ServiceTwo;

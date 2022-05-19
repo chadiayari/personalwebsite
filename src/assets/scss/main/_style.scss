@@ -817,19 +817,6 @@
       color: $px-dark;
       margin: 0 0 10px;
     }
-    .rating-value {
-      display: inline-block;
-      vertical-align: middle;
-      background: $px-white;
-      border-radius: 30px;
-      padding: 0px 10px;
-      box-shadow: 1px 1px 1px 1px rgba($px-dark, 0.1);
-      font-size: 9px;
-      i {
-        color: #ffc800;
-        margin-right: 3px;
-      }
-    }
   }
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "/Users/chadiayari/development/personalwebsite/src/assets/scss/Chadi_Resume.pdf";
+import pdf from "../../Chadi_Resume.pdf";
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <div className="row align-items-center justify-content-center">
         <div className="col-lg-6 my-3">
           <div className="img-box dark-img-box">
-            <img src="img/about/about-me.png" alt="About Chadi" />
+            <img src="img/about/about.png" alt="About Chadi" />
           </div>
         </div>
 

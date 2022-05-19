@@ -30,7 +30,7 @@ const AllPortfolioContent = [
       "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
   },
   {
-    img: "4",
+    img: "5",
     title: "Event Hub: create events online",
     subTitle: "ReactJS - NodeJS - MongoDB",
     alterText: "Event Hub: create events online",
@@ -38,7 +38,7 @@ const AllPortfolioContent = [
       "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
   },
   {
-    img: "7",
+    img: "4",
     title: "Chat Application",
     subTitle: "Flutter - Firebase",
     alterText: "Chat Application",
@@ -64,7 +64,7 @@ const WebPortfolioContent = [
       "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
   },
   {
-    img: "4",
+    img: "5",
     title: "Event Hub: create events online",
     subTitle: "ReactJS - NodeJS - MongoDB",
     alterText: "Event Hub: create events online",
@@ -91,7 +91,7 @@ const MobilePortfolioContent = [
       "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
   },
   {
-    img: "7",
+    img: "4",
     title: "Chat Application",
     subTitle: "Flutter - Firebase",
     alterText: "Chat Application",
@@ -145,7 +145,7 @@ const Portfolio = () => {
                           </div>
                           {/* End .portfolio-info */}
                           <a
-                            href={`img/portfolio/${val.img}.jpg`}
+                            href={`img/portfolio/${val.img}.png`}
                             className="gallery-link"
                           >
                             <img
@@ -190,11 +190,11 @@ const Portfolio = () => {
                           </div>
                           {/* End .portfolio-info */}
                           <a
-                            href={`img/portfolio/${val.img}.jpg`}
+                            href={`img/portfolio/${val.img}.png`}
                             className="gallery-link"
                           >
                             <img
-                              src={`img/portfolio/${val.img}.jpg`}
+                              src={`img/portfolio/${val.img}.png`}
                               alt={val.alterText}
                             />
                           </a>
@@ -235,11 +235,11 @@ const Portfolio = () => {
                           </div>
                           {/* End .portfolio-info */}
                           <a
-                            href={`img/portfolio/${val.img}.jpg`}
+                            href={`img/portfolio/${val.img}.png`}
                             className="gallery-link"
                           >
                             <img
-                              src={`img/portfolio/${val.img}.jpg`}
+                              src={`img/portfolio/${val.img}.png`}
                               alt={val.alterText}
                             />
                           </a>
@@ -280,11 +280,11 @@ const Portfolio = () => {
                           </div>
                           {/* End .portfolio-info */}
                           <a
-                            href={`img/portfolio/${val.img}.jpg`}
+                            href={`img/portfolio/${val.img}.png`}
                             className="gallery-link"
                           >
                             <img
-                              src={`img/portfolio/${val.img}.jpg`}
+                              src={`img/portfolio/${val.img}.png`}
                               alt={val.alterText}
                             />
                           </a>

@@ -106,7 +106,7 @@ const HomeTwo = () => {
             <div className="col-lg-6 my-3">
               <div className="contct-form">
                 <div className="sm-title">
-                  <h4 className="font-alt">Contact us</h4>
+                  <h4 className="font-alt">Contact me</h4>
                 </div>
                 {/* End .sm-title */}
                 <Contact />

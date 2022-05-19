@@ -25,28 +25,26 @@ export default function SimpleSlider() {
 
   const TestimonilContent = [
     {
-      imageName: "team-1",
-      desc: `  I design and develop services for customers of all sizes,
-      specializing in creating stylish, modern websites, web services
-      and online stores.`,
-      reviewerName: "Nancy Byers",
-      rating: "5.0",
+      imageName: "testimonial1",
+      desc: `  Chadi, it was pleasure to meet you and be your mentor. You are an
+      easy-going person and it was really nice to cooperate with you. You
+      did a great job here and I wish you all the best in your future career.`,
+      reviewerName: "Nikola Prečanica",
+      link: "https://www.linkedin.com/in/nikola-prečanica-9907981b2/",
     },
     {
-      imageName: "team-2",
-      desc: `  I design and develop services for customers of all sizes,
-      specializing in creating stylish, modern websites, web services
-      and online stores.`,
-      reviewerName: "Jara Afsari",
-      rating: "4.8",
+      imageName: "qqqqq",
+      desc: `  Dqqqth yqest iq`,
+      reviewerName: "qqqq q qq",
+      link: "https://www.linkedinq981b2/",
     },
     {
-      imageName: "team-4",
+      imageName: "testimonial2",
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,
-      reviewerName: "Janiaya kiaram",
-      rating: "5.0",
+      reviewerName: "Sonja Tatarin Ragaji",
+      link: "https://www.linkedin.com/in/sonja-tatarin-ragaji-064398162/",
     },
   ];
 
@@ -57,7 +55,7 @@ export default function SimpleSlider() {
           <div className="testmonial-box media" key={i}>
             <div className="avatar">
               <img
-                src={`img/testimonial/${val.imageName}.jpg`}
+                src={`img/testimonial/${val.imageName}.jpeg`}
                 alt="review comments"
               ></img>
             </div>
@@ -65,11 +63,11 @@ export default function SimpleSlider() {
             <div className="testmonial-text media-body">
               <p>{val.desc}</p>
               <div className="testmonial-info">
-                <h6>{val.reviewerName}</h6>
-                <div className="rating-value">
-                  <i className="ti-star"></i>
-                  <span>{val.rating}</span>
-                </div>
+                <h6>
+                  <a href={val.link} target="_blank">
+                    {val.reviewerName}
+                  </a>
+                </h6>
               </div>
             </div>
             {/* End testimonial-text */}

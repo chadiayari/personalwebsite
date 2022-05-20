@@ -81,7 +81,7 @@ const HomeTwo = () => {
       {/* End testimonial */}
 
       {/* Blog */}
-      <section id="blog" className="section gray-bg">
+      {/* <section id="blog" className="section gray-bg">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
@@ -92,11 +92,11 @@ const HomeTwo = () => {
                 and online stores.
               </p>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
-          <Blog />
+          {/* <Blog />
         </div>
-      </section>
+      </section> */}
       {/*  End Blog */}
 
       {/* Contact */}
@@ -128,9 +128,8 @@ const HomeTwo = () => {
                     <i className="ti-map"></i>
                   </div>
                   <span className="media-body">
-                    Pillai Hostel, Panvel<br />
-                    Navi Mumbai <br />
-                    India 410206.
+                    Pillai Hostel, Navi Mumbai<br />
+                    India 410206 <br />
                   </span>
                 </div>
                 {/* End media */}
@@ -141,7 +140,8 @@ const HomeTwo = () => {
                   </div>
                   <span className="media-body">                    
 
-                    chadiayari@outlook.com
+                  info@chadiayari.com
+                  chadiayari@outlook.com
                     
                   </span>
                 </div>
@@ -151,9 +151,9 @@ const HomeTwo = () => {
                   <div className="icon">
                     <i className="ti-mobile"></i>
                   </div>
-                  <span className="media-body">                    <br />
-
-                    +216 53 180 256
+                  <span className="media-body">                  
+                  Mobile: +91 89762 48003  <br />
+                    WhatsApp: +216 53 180 256
                   </span>
                 </div>
                 {/* End media */}

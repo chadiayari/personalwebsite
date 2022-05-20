@@ -11,7 +11,7 @@ const AllPortfolioContent = [
     subTitle: "Flutter - NodeJS - MongoDB",
     alterText: "Motion Graphy",
     portfolioLink:
-      "https://play.google.com/store/apps/details?id=com.alightcreative.motion&hl=en&gl=US",
+      "",
   },
   {
     img: "3",
@@ -19,7 +19,7 @@ const AllPortfolioContent = [
     subTitle: "Wordpress",
     alterText: "Elearning App",
     portfolioLink:
-      "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+      "https://abcdriving.ch",
   },
   {
     img: "2",
@@ -27,7 +27,7 @@ const AllPortfolioContent = [
     subTitle: "Flutter - Flask - MongoDB",
     alterText: "Business Mockup",
     portfolioLink:
-      "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+      "",
   },
   {
     img: "5",
@@ -35,7 +35,7 @@ const AllPortfolioContent = [
     subTitle: "ReactJS - NodeJS - MongoDB",
     alterText: "Event Hub: create events online",
     portfolioLink:
-      "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+      "https://github.com/chadiayari/EventHub",
   },
   {
     img: "4",
@@ -43,7 +43,7 @@ const AllPortfolioContent = [
     subTitle: "Flutter - Firebase",
     alterText: "Chat Application",
     portfolioLink:
-      "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+      "https://github.com/chadiayari/Chat-App-Flutter-Firebase",
   },
   {
     img: "6",
@@ -51,7 +51,7 @@ const AllPortfolioContent = [
     subTitle: "Python: TenserFlow - Cifar10",
     alterText: "Image Classifier",
     portfolioLink:
-      "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+      "https://github.com/chadiayari/imageClassification",
   },
 ];
 const WebPortfolioContent = [
@@ -61,7 +61,7 @@ const WebPortfolioContent = [
     subTitle: "Wordpress",
     alterText: "Elearning App",
     portfolioLink:
-      "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+    "https://abcdriving.ch",
   },
   {
     img: "5",
@@ -69,7 +69,7 @@ const WebPortfolioContent = [
     subTitle: "ReactJS - NodeJS - MongoDB",
     alterText: "Event Hub: create events online",
     portfolioLink:
-      "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+    "https://github.com/chadiayari/EventHub",
   },
 ];
 
@@ -80,7 +80,7 @@ const MobilePortfolioContent = [
     subTitle: "Flutter - NodeJS - MongoDB",
     alterText: "Motion Graphy",
     portfolioLink:
-      "https://play.google.com/store/apps/details?id=com.alightcreative.motion&hl=en&gl=US",
+      "",
   },
   {
     img: "2",
@@ -88,7 +88,7 @@ const MobilePortfolioContent = [
     subTitle: "Flutter - Flask - MongoDB",
     alterText: "Business Mockup",
     portfolioLink:
-      "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+      "",
   },
   {
     img: "4",
@@ -96,7 +96,7 @@ const MobilePortfolioContent = [
     subTitle: "Flutter - Firebase",
     alterText: "Chat Application",
     portfolioLink:
-      "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+    "https://github.com/chadiayari/Chat-App-Flutter-Firebase",
   },
 ];
 const AiPortfolioContent = [
@@ -106,7 +106,7 @@ const AiPortfolioContent = [
     subTitle: "Python: TenserFlow - Cifar10",
     alterText: "Image Classifier",
     portfolioLink:
-      "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+    "https://github.com/chadiayari/imageClassification",
   },
 ];
 

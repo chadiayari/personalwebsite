@@ -46,6 +46,8 @@
 .main-header {
   .navbar-logo {
     max-width: 75px;
+    margin: 0px 20px;
+    padding: 0px 2px;
     transition: 0.3s;
   }
   @media (max-width: 768px) {

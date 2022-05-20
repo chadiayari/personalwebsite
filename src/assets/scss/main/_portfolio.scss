@@ -84,19 +84,7 @@
     position: relative;
     overflow: hidden;
     cursor: zoom-in !important;
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      top: auto;
-      left: 0;
-      right: 0;
-      height: 0;
-      width: 100%;
-      @include transition(ease all 0.55s);
-      background: rgba(220, 150, 90, 0.8);
-      pointer-events: none;
-    }
+
     img {
       transition: 0.6s;
     }

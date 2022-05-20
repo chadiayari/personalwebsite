@@ -10,48 +10,42 @@ const AllPortfolioContent = [
     title: "Buying Shares Mobile App",
     subTitle: "Flutter - NodeJS - MongoDB",
     alterText: "Motion Graphy",
-    portfolioLink:
-      "https://play.google.com/store/apps/details?id=com.alightcreative.motion&hl=en&gl=US",
+    portfolioLink: "",
   },
   {
     img: "3",
     title: "Driving School Website",
     subTitle: "Wordpress",
     alterText: "Elearning App",
-    portfolioLink:
-      "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+    portfolioLink: "https://abcdriving.ch",
   },
   {
     img: "2",
     title: "College Mobile App",
     subTitle: "Flutter - Flask - MongoDB",
     alterText: "Business Mockup",
-    portfolioLink:
-      "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+    portfolioLink: "",
   },
   {
     img: "5",
     title: "Event Hub: create events online",
     subTitle: "ReactJS - NodeJS - MongoDB",
     alterText: "Event Hub: create events online",
-    portfolioLink:
-      "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+    portfolioLink: "https://github.com/chadiayari/EventHub",
   },
   {
     img: "4",
     title: "Chat Application",
     subTitle: "Flutter - Firebase",
     alterText: "Chat Application",
-    portfolioLink:
-      "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+    portfolioLink: "https://github.com/chadiayari/Chat-App-Flutter-Firebase",
   },
   {
     img: "6",
     title: "Image Classifier",
     subTitle: "Python: TenserFlow - Cifar10",
     alterText: "Image Classifier",
-    portfolioLink:
-      "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+    portfolioLink: "https://github.com/chadiayari/imageClassification",
   },
 ];
 const WebPortfolioContent = [
@@ -60,16 +54,14 @@ const WebPortfolioContent = [
     title: "Driving School Website",
     subTitle: "Wordpress",
     alterText: "Elearning App",
-    portfolioLink:
-      "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+    portfolioLink: "https://abcdriving.ch",
   },
   {
     img: "5",
     title: "Event Hub: create events online",
     subTitle: "ReactJS - NodeJS - MongoDB",
     alterText: "Event Hub: create events online",
-    portfolioLink:
-      "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+    portfolioLink: "https://github.com/chadiayari/EventHub",
   },
 ];
 
@@ -79,24 +71,21 @@ const MobilePortfolioContent = [
     title: "Buying Shares Mobile App",
     subTitle: "Flutter - NodeJS - MongoDB",
     alterText: "Motion Graphy",
-    portfolioLink:
-      "https://play.google.com/store/apps/details?id=com.alightcreative.motion&hl=en&gl=US",
+    portfolioLink: "",
   },
   {
     img: "2",
     title: "College Mobile App",
     subTitle: "Flutter - Flask - MongoDB",
     alterText: "Business Mockup",
-    portfolioLink:
-      "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+    portfolioLink: "",
   },
   {
     img: "4",
     title: "Chat Application",
     subTitle: "Flutter - Firebase",
     alterText: "Chat Application",
-    portfolioLink:
-      "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+    portfolioLink: "https://github.com/chadiayari/Chat-App-Flutter-Firebase",
   },
 ];
 const AiPortfolioContent = [
@@ -105,12 +94,9 @@ const AiPortfolioContent = [
     title: "Image Classifier",
     subTitle: "Python: TenserFlow - Cifar10",
     alterText: "Image Classifier",
-    portfolioLink:
-      "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+    portfolioLink: "https://github.com/chadiayari/imageClassification",
   },
 ];
-
-
 
 const Portfolio = () => {
   return (
@@ -134,7 +120,6 @@ const Portfolio = () => {
                       key={i}
                     >
                       <div className="portfolio-box-01">
-                        <div className="portfolio-img">
                           <div className="portfolio-info">
                             <h5>
                               <a href={val.portfolioLink} target="_blank">
@@ -148,166 +133,39 @@ const Portfolio = () => {
                             href={`img/portfolio/${val.img}.png`}
                             className="gallery-link"
                           >
-                            <img
-                              src={`img/portfolio/${val.img}.png`}
-                              alt={val.alterText}
-                            />
+                            <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                  <img
+                                    src={`img/portfolio/${val.img}.png`}
+                                    alt={val.alterText}
+                                  />{" "}
+                                </div>
+                                <div class="flip-card-back">
+                                  <h1>John Doe</h1>
+                                  <p>Architect & Engineer</p>
+                                  <p>We love that guy</p>
+                                </div>
+                              </div>
+                            </div>
                           </a>
+
                           {/* End gallery link */}
-                          <a
+                          {/* <a
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <span className="ti-link"></span>
-                          </a>
+                          </a> */}
                           {/* End .portfolio-icon */}
                         </div>
-                      </div>
                     </div>
                   ))}
                 </div>
                 {/* End list wrapper */}
               </TabPanel>
-
-              <TabPanel>
-                <div className="portfolio-content row lightbox-gallery">
-                  {WebPortfolioContent.map((val, i) => (
-                    <div
-                      className="col-sm-6 col-lg-4 grid-item product"
-                      key={i}
-                    >
-                      <div className="portfolio-box-01">
-                        <div className="portfolio-img">
-                          <div className="portfolio-info">
-                            <h5>
-                              <a href={val.portfolioLink} target="_blank">
-                                {val.title}
-                              </a>
-                            </h5>
-                            <span>{val.subTitle}</span>
-                          </div>
-                          {/* End .portfolio-info */}
-                          <a
-                            href={`img/portfolio/${val.img}.png`}
-                            className="gallery-link"
-                          >
-                            <img
-                              src={`img/portfolio/${val.img}.png`}
-                              alt={val.alterText}
-                            />
-                          </a>
-                          {/* End gallery link */}
-                          <a
-                            href={val.portfolioLink}
-                            className="portfolio-icon"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <span className="ti-link"></span>
-                          </a>
-                          {/* End .portfolio-icon */}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                {/* End list wrapper */}
-              </TabPanel>
-
-              <TabPanel>
-                <div className="portfolio-content row lightbox-gallery">
-                  {MobilePortfolioContent.map((val, i) => (
-                    <div
-                      className="col-sm-6 col-lg-4 grid-item product"
-                      key={i}
-                    >
-                      <div className="portfolio-box-01">
-                        <div className="portfolio-img">
-                          <div className="portfolio-info">
-                            <h5>
-                              <a href={val.portfolioLink} target="_blank">
-                                {val.title}
-                              </a>
-                            </h5>
-                            <span>{val.subTitle}</span>
-                          </div>
-                          {/* End .portfolio-info */}
-                          <a
-                            href={`img/portfolio/${val.img}.png`}
-                            className="gallery-link"
-                          >
-                            <img
-                              src={`img/portfolio/${val.img}.png`}
-                              alt={val.alterText}
-                            />
-                          </a>
-                          {/* End gallery link */}
-                          <a
-                            href={val.portfolioLink}
-                            className="portfolio-icon"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <span className="ti-link"></span>
-                          </a>
-                          {/* End .portfolio-icon */}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                {/* End list wrapper */}
-              </TabPanel>
-
-              <TabPanel>
-                <div className="portfolio-content row lightbox-gallery">
-                  {AiPortfolioContent.map((val, i) => (
-                    <div
-                      className="col-sm-6 col-lg-4 grid-item product"
-                      key={i}
-                    >
-                      <div className="portfolio-box-01">
-                        <div className="portfolio-img">
-                          <div className="portfolio-info">
-                            <h5>
-                              <a href={val.portfolioLink} target="_blank">
-                                {val.title}
-                              </a>
-                            </h5>
-                            <span>{val.subTitle}</span>
-                          </div>
-                          {/* End .portfolio-info */}
-                          <a
-                            href={`img/portfolio/${val.img}.png`}
-                            className="gallery-link"
-                          >
-                            <img
-                              src={`img/portfolio/${val.img}.png`}
-                              alt={val.alterText}
-                            />
-                          </a>
-                          {/* End gallery link */}
-                          <a
-                            href={val.portfolioLink}
-                            className="portfolio-icon"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <span className="ti-link"></span>
-                          </a>
-                          {/* End .portfolio-icon */}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                  {/* grid item  */}
-                </div>
-                {/* End list wrapper */}
-              </TabPanel>
-
-          
             </SRLWrapper>
             {/* End tabpanel */}
           </Tabs>

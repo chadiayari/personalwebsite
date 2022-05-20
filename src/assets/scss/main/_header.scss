@@ -44,10 +44,14 @@
   }
 }
 .main-header {
-  .navbar-brand {
+  .navbar-logo {
     max-width: 75px;
-    margin: 19px 20px;
     transition: 0.3s;
+  }
+  @media (max-width: 768px) {
+    .navbar-logo {
+      margin: 5px 20px;
+    }
   }
 }
 
@@ -253,7 +257,7 @@
       }
     }
   }
-  .navbar-brand {
+  .navbar-logo {
     filter: invert(1);
     @include down-md {
       filter: invert(0);

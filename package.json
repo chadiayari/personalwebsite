@@ -1,6 +1,6 @@
 {
-  "homepage": "https://chadiayari.github.io/personalwebsite/",
-  "name": "chadisportfolio",
+  "homepage": "https://chadiayari.github.io/personalwebsite",
+  "name": "personalwebsite",
   "version": "1.1.6",
   "private": true,
   "dependencies": {
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1cb9ff3.chunk.css",
-    "main.js": "/static/js/main.b95b5cce.chunk.js",
-    "main.js.map": "/static/js/main.b95b5cce.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ac91a1d9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ac91a1d9.js.map",
-    "static/css/2.81c66f03.chunk.css": "/static/css/2.81c66f03.chunk.css",
-    "static/js/2.fa18e5cb.chunk.js": "/static/js/2.fa18e5cb.chunk.js",
-    "static/js/2.fa18e5cb.chunk.js.map": "/static/js/2.fa18e5cb.chunk.js.map",
-    "static/js/3.6707ae5b.chunk.js": "/static/js/3.6707ae5b.chunk.js",
-    "static/js/3.6707ae5b.chunk.js.map": "/static/js/3.6707ae5b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.81c66f03.chunk.css.map": "/static/css/2.81c66f03.chunk.css.map",
-    "static/css/main.e1cb9ff3.chunk.css.map": "/static/css/main.e1cb9ff3.chunk.css.map",
-    "static/js/2.fa18e5cb.chunk.js.LICENSE.txt": "/static/js/2.fa18e5cb.chunk.js.LICENSE.txt",
-    "static/media/Chadi_Resume.925dfc87.pdf": "/static/media/Chadi_Resume.925dfc87.pdf",
-    "static/media/main.scss": "/static/media/icomoon.26fba056.ttf",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+    "main.css": "/personalwebsite/static/css/main.23e00f38.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.43cc4a0f.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.43cc4a0f.chunk.js.map",
+    "runtime-main.js": "/personalwebsite/static/js/runtime-main.d49cb032.js",
+    "runtime-main.js.map": "/personalwebsite/static/js/runtime-main.d49cb032.js.map",
+    "static/css/2.4e29acac.chunk.css": "/personalwebsite/static/css/2.4e29acac.chunk.css",
+    "static/js/2.fa18e5cb.chunk.js": "/personalwebsite/static/js/2.fa18e5cb.chunk.js",
+    "static/js/2.fa18e5cb.chunk.js.map": "/personalwebsite/static/js/2.fa18e5cb.chunk.js.map",
+    "static/js/3.6707ae5b.chunk.js": "/personalwebsite/static/js/3.6707ae5b.chunk.js",
+    "static/js/3.6707ae5b.chunk.js.map": "/personalwebsite/static/js/3.6707ae5b.chunk.js.map",
+    "index.html": "/personalwebsite/index.html",
+    "static/css/2.4e29acac.chunk.css.map": "/personalwebsite/static/css/2.4e29acac.chunk.css.map",
+    "static/css/main.23e00f38.chunk.css.map": "/personalwebsite/static/css/main.23e00f38.chunk.css.map",
+    "static/js/2.fa18e5cb.chunk.js.LICENSE.txt": "/personalwebsite/static/js/2.fa18e5cb.chunk.js.LICENSE.txt",
+    "static/media/Chadi_Resume.925dfc87.pdf": "/personalwebsite/static/media/Chadi_Resume.925dfc87.pdf",
+    "static/media/main.scss": "/personalwebsite/static/media/icomoon.26fba056.ttf",
+    "static/media/slick-theme.css": "/personalwebsite/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac91a1d9.js",
-    "static/css/2.81c66f03.chunk.css",
+    "static/js/runtime-main.d49cb032.js",
+    "static/css/2.4e29acac.chunk.css",
     "static/js/2.fa18e5cb.chunk.js",
-    "static/css/main.e1cb9ff3.chunk.css",
-    "static/js/main.b95b5cce.chunk.js"
+    "static/css/main.23e00f38.chunk.css",
+    "static/js/main.43cc4a0f.chunk.js"
   ]
 }

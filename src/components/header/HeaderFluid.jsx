@@ -33,7 +33,7 @@ const HeaderFluid = () => {
             <Link to="/">
                <img
                 className="navbar-logo"
-                src="img/logo/logo.png"
+                src={process.env.PUBLIC_URL +"/img/logo/logo.png"}
                 alt="Chadi's logo"
               /> 
           

@@ -7,7 +7,10 @@ const About = () => {
       <div className="row align-items-center justify-content-center">
         <div className="col-lg-6 my-3">
           <div className="img-box dark-img-box">
-            <img src="img/about/about.png" alt="About Chadi" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/about/about.png"}
+              alt="About Chadi"
+            />
           </div>
         </div>
 

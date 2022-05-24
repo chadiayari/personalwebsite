@@ -7,7 +7,7 @@ import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 const Routes = () => {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollTopBehaviour />
         <Switch>
           <Route exact path="/" component={HomeDark} />

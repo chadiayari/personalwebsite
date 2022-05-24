@@ -67,7 +67,7 @@ const HeaderFluid = () => {
               </Link>
               <Scrollspy
                 className="anchor_nav navbar-nav ml-auto"
-                items={["home", "about", "services", "work", "blog", "contact"]}
+                items={["home", "about", "services", "work", "contact"]}
                 currentClassName="current"
                 offset={-71}
               >
@@ -95,11 +95,11 @@ const HeaderFluid = () => {
                     <span>Portfolio</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="nav-link" href="#blog" onClick={handleClick}>
                     <span>Blog</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className="nav-link" href="#contact" onClick={handleClick}>
                     <span>Contact</span>

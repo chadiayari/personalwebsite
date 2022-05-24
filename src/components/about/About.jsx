@@ -16,18 +16,11 @@ const About = () => {
 
         <div className="col-lg-6 my-3">
           <div className="typo-box about-me">
-            <h3>Chadi Ayari</h3>
-            <h5>
-              A freshly graduated{" "}
-              <span className="color-theme">Software Engineer</span>
-            </h5>
-            <p>
-              I design and develop services for customers of all sizes,
-              specializing in creating stylish, modern websites, web services
-              and online stores. My passion is to design digital user
-              experiences through the bold interface and meaningful
-              interactions. Check out my Portfolio
-            </p>
+            <h5>Chadi Ayari</h5>
+            <h3>
+              Full Stack <span className="color-theme">Software Engineer</span>
+            </h3>
+            <p>I develop and maintain services, mobile apps, and web apps.</p>
             <div className="row about-list">
               <div className="col-md-6">
                 <div className="media">
@@ -52,7 +45,7 @@ const About = () => {
                 </div>
                 <div className="media">
                   <label>Phone</label>
-                  <p>+216 53 180 256</p>
+                  <p>+21653180256</p>
                 </div>
 
                 <div className="media">

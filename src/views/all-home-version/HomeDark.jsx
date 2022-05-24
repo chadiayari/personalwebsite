@@ -34,11 +34,6 @@ const HomeTwo = () => {
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
               <h3 className="font-alt">My Services</h3>
-              <p>
-                I design and develop services for customers,
-                specializing in creating stylish websites, modern mobile applications,
-                and online stores.
-              </p>
             </div>
           </div>
           {/* End .row */}
@@ -93,8 +88,8 @@ const HomeTwo = () => {
               </p>
             </div>
           </div> */}
-          {/* End .row */}
-          {/* <Blog />
+      {/* End .row */}
+      {/* <Blog />
         </div>
       </section> */}
       {/*  End Blog */}
@@ -128,7 +123,8 @@ const HomeTwo = () => {
                     <i className="ti-map"></i>
                   </div>
                   <span className="media-body">
-                    Pillai Hostel, Navi Mumbai<br />
+                    Pillai Hostel, Navi Mumbai
+                    <br />
                     India 410206 <br />
                   </span>
                 </div>
@@ -138,11 +134,8 @@ const HomeTwo = () => {
                   <div className="icon">
                     <i className="ti-email"></i>
                   </div>
-                  <span className="media-body">                    
-
-                  info@chadiayari.com
-                  chadiayari@outlook.com
-                    
+                  <span className="media-body">
+                    info@chadiayari.com chadiayari@outlook.com
                   </span>
                 </div>
                 {/* End media */}
@@ -151,8 +144,8 @@ const HomeTwo = () => {
                   <div className="icon">
                     <i className="ti-mobile"></i>
                   </div>
-                  <span className="media-body">                  
-                  Mobile: +91 89762 48003  <br />
+                  <span className="media-body">
+                    Mobile: +91 89762 48003 <br />
                     WhatsApp: +216 53 180 256
                   </span>
                 </div>

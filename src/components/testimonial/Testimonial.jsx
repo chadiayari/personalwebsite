@@ -32,12 +32,12 @@ export default function SimpleSlider() {
       reviewerName: "Nikola Prečanica, Serbia",
       link: "https://www.linkedin.com/in/nikola-prečanica-9907981b2/",
     },
-    {
-      imageName: "qqqqq",
-      desc: `  Dqqqth yqest iq`,
-      reviewerName: "qqqq q qq",
-      link: "https://www.linkedinq981b2/",
-    },
+    // {
+    //   imageName: "qqqqq",
+    //   desc: `  Dqqqth yqest iq`,
+    //   reviewerName: "qqqq q qq",
+    //   link: "https://www.linkedinq981b2/",
+    // },
     {
       imageName: "testimonial2",
       desc: `  Dear Chadi, it was real pleasure meeting and collaborating with you, and especially have fun with you 😊 Wish you all the best in upcoming professional succeses and looking forward to see you again 🍀 Keep bee-ing so full of positive energy, it's inspiring ❤`,

@@ -6,48 +6,36 @@ const ServiceContent = [
     no: "01",
     service: "RESPONSIVE LAYOUT",
     title: "Responsive layout design meeting clients needs.",
-    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-image",
     no: "02",
     service: "DEVELOPMENT",
     title: "Development gorgeous graphic design meeting clients needs.",
-    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "ti-layout",
     no: "03",
-    service: "GRAPHIC",
-    title: "Graphic gorgeous design meeting clients needs.",
-    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    service: "UI/UX",
+    title: "Attractive User Interface, interactive User Experience.",
   },
   {
     icon: "ti-brush-alt",
     no: "04",
-    service: "WEB DESIGN",
-    title: "Web Design gorgeous graphic design meeting clients needs.",
-    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    service: "CLEAN CODE",
+    title: "Easily understandble, easily exchangeable.",
   },
   {
-    icon: "ti-camera",
+    icon: "ti-time",
     no: "05",
-    service: "MOTION GRAPHY",
-    title: "Motion Graphy design meeting clients needs.",
-    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    service: "PUNCTUAL",
+    title: "Getting the job done within the exact agreed amount of time.",
   },
   {
     icon: "ti-world",
     no: "06",
-    service: "PHOTOGRAPHY",
-    title: "Photography design meeting clients needs.",
-    desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    service: "CI/CD",
+    title: "Working in Agile method with DevOps approach.",
   },
 ];
 
@@ -65,7 +53,6 @@ const ServiceTwo = () => {
                 <span>{val.no}.</span> {val.service}
               </h6>
               <h5>{val.title}</h5>
-              <p>{val.desc}</p>
             </div>
           </div>
         ))}

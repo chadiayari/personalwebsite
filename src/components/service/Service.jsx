@@ -4,14 +4,14 @@ const ServiceContent = [
   {
     icon: "ti-ruler-pencil",
     no: "01",
-    service: "RESPONSIVE LAYOUT",
-    title: "Responsive layout design meeting clients needs.",
+    service: "WEB & MOBILE DEV",
+    title: "Mobile and web development? I got you covered! ",
   },
   {
-    icon: "ti-image",
+    icon: "ti-shopping-cart",
     no: "02",
-    service: "DEVELOPMENT",
-    title: "Development gorgeous graphic design meeting clients needs.",
+    service: "E-COMMERCE DEVELOPMENT",
+    title: "Large experience in using the most powerful CMSs",
   },
   {
     icon: "ti-layout",

@@ -120,41 +120,175 @@ const Portfolio = () => {
                       key={i}
                     >
                       <div className="portfolio-box-01">
-                        <div className="portfolio-info">
-                          <h5>
-                            <a href={val.portfolioLink} target="_blank">
-                              {val.title}
-                            </a>
-                          </h5>
-                          <span>{val.subTitle}</span>
-                        </div>
-                        {/* End .portfolio-info */}
-                        <a
-                          href={`img/portfolio/${val.img}.png`}
-                          className="gallery-link"
-                        >
-                          <img
-                            src={
-                              process.env.PUBLIC_URL +
-                              `/img/portfolio/${val.img}.png`
-                            }
-                            alt={val.alterText}
-                          />{" "}
-                        </a>
-
-                        {/* End gallery link */}
-                        {/* <a
+                        <div className="portfolio-img">
+                          <div className="portfolio-info">
+                            <h5>
+                              <a href={val.portfolioLink} target="_blank">
+                                {val.title}
+                              </a>
+                            </h5>
+                            <span>{val.subTitle}</span>
+                          </div>
+                          {/* End .portfolio-info */}
+                          <a
+                            href={`img/portfolio/${val.img}.png`}
+                            className="gallery-link"
+                          >
+                            <img
+                              src={`img/portfolio/${val.img}.png`}
+                              alt={val.alterText}
+                            />
+                          </a>
+                          {/* End gallery link */}
+                          <a
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <span className="ti-link"></span>
-                          </a> */}
-                        {/* End .portfolio-icon */}
+                          </a>
+                          {/* End .portfolio-icon */}
+                        </div>
                       </div>
                     </div>
                   ))}
+                </div>
+                {/* End list wrapper */}
+              </TabPanel>
+
+              <TabPanel>
+                <div className="portfolio-content row lightbox-gallery">
+                  {WebPortfolioContent.map((val, i) => (
+                    <div
+                      className="col-sm-6 col-lg-4 grid-item product"
+                      key={i}
+                    >
+                      <div className="portfolio-box-01">
+                        <div className="portfolio-img">
+                          <div className="portfolio-info">
+                            <h5>
+                              <a href={val.portfolioLink} target="_blank">
+                                {val.title}
+                              </a>
+                            </h5>
+                            <span>{val.subTitle}</span>
+                          </div>
+                          {/* End .portfolio-info */}
+                          <a
+                            href={`img/portfolio/${val.img}.png`}
+                            className="gallery-link"
+                          >
+                            <img
+                              src={`img/portfolio/${val.img}.png`}
+                              alt={val.alterText}
+                            />
+                          </a>
+                          {/* End gallery link */}
+                          <a
+                            href={val.portfolioLink}
+                            className="portfolio-icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className="ti-link"></span>
+                          </a>
+                          {/* End .portfolio-icon */}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                {/* End list wrapper */}
+              </TabPanel>
+
+              <TabPanel>
+                <div className="portfolio-content row lightbox-gallery">
+                  {MobilePortfolioContent.map((val, i) => (
+                    <div
+                      className="col-sm-6 col-lg-4 grid-item product"
+                      key={i}
+                    >
+                      <div className="portfolio-box-01">
+                        <div className="portfolio-img">
+                          <div className="portfolio-info">
+                            <h5>
+                              <a href={val.portfolioLink} target="_blank">
+                                {val.title}
+                              </a>
+                            </h5>
+                            <span>{val.subTitle}</span>
+                          </div>
+                          {/* End .portfolio-info */}
+                          <a
+                            href={`img/portfolio/${val.img}.png`}
+                            className="gallery-link"
+                          >
+                            <img
+                              src={`img/portfolio/${val.img}.png`}
+                              alt={val.alterText}
+                            />
+                          </a>
+                          {/* End gallery link */}
+                          <a
+                            href={val.portfolioLink}
+                            className="portfolio-icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className="ti-link"></span>
+                          </a>
+                          {/* End .portfolio-icon */}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                {/* End list wrapper */}
+              </TabPanel>
+
+              <TabPanel>
+                <div className="portfolio-content row lightbox-gallery">
+                  {AiPortfolioContent.map((val, i) => (
+                    <div
+                      className="col-sm-6 col-lg-4 grid-item product"
+                      key={i}
+                    >
+                      <div className="portfolio-box-01">
+                        <div className="portfolio-img">
+                          <div className="portfolio-info">
+                            <h5>
+                              <a href={val.portfolioLink} target="_blank">
+                                {val.title}
+                              </a>
+                            </h5>
+                            <span>{val.subTitle}</span>
+                          </div>
+                          {/* End .portfolio-info */}
+                          <a
+                            href={`img/portfolio/${val.img}.png`}
+                            className="gallery-link"
+                          >
+                            <img
+                              src={`img/portfolio/${val.img}.png`}
+                              alt={val.alterText}
+                            />
+                          </a>
+                          {/* End gallery link */}
+                          <a
+                            href={val.portfolioLink}
+                            className="portfolio-icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className="ti-link"></span>
+                          </a>
+                          {/* End .portfolio-icon */}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  {/* grid item  */}
                 </div>
                 {/* End list wrapper */}
               </TabPanel>

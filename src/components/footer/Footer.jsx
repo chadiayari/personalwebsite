@@ -9,7 +9,10 @@ import {
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/chadi.ayari.1/" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/ayari_chadi/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/chadi-ayari-7a11a6157/" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/chadi-ayari-7a11a6157/",
+  },
   { Social: <FaGithub />, link: "https://github.com/chadiayari" },
 ];
 
@@ -30,12 +33,7 @@ const Footer = () => {
         {/* End .col */}
 
         <div className="col-md-6 my-2 text-center text-md-right">
-          <p>
-            © {new Date().getFullYear()} copyright{" "}
-           
-              Chadi Ayari
-            all rights are reserved
-          </p>
+          <p>Designed & Built by Chadi Ayari</p>
         </div>
         {/* End .col */}
       </div>

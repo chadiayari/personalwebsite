@@ -55,11 +55,6 @@ const HomeTwo = () => {
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
               <h3 className="font-alt">My Portfolio</h3>
-              <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores.
-              </p>
             </div>
           </div>
           {/* End .row */}
@@ -114,8 +109,8 @@ const HomeTwo = () => {
                 <div className="sm-title">
                   <h4 className="font-alt">Get in touch</h4>
                   <p>
-                    Always available for freelancing if the right project comes
-                    along, Feel free to contact me.
+                    You have an amazing team of developers or an interesting
+                    project? Let's discuss it!
                   </p>
                 </div>
                 <div className="media">

@@ -25,7 +25,7 @@ const Skills = () => {
             </li>
             <li>
               <span className="theme-bg">06/2021-09/2021</span>
-              <h6>Backend Software Engineer</h6>
+              <h6>SFCC Software Engineer</h6>
               <p>Bee IT, Serbia</p>
             </li>
             <li>

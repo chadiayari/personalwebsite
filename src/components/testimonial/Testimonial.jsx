@@ -29,7 +29,7 @@ export default function SimpleSlider() {
       desc: `  Chadi, it was pleasure to meet you and be your mentor. You are an
       easy-going person and it was really nice to cooperate with you. You
       did a great job here and I wish you all the best in your future career.`,
-      reviewerName: "Nikola Prečanica, Serbia",
+      reviewerName: "Nikola Prečanica, BEE IT Serbia",
       link: "https://www.linkedin.com/in/nikola-prečanica-9907981b2/",
     },
     // {
@@ -41,7 +41,7 @@ export default function SimpleSlider() {
     {
       imageName: "testimonial2",
       desc: `  Dear Chadi, it was real pleasure meeting and collaborating with you, and especially have fun with you 😊 Wish you all the best in upcoming professional succeses and looking forward to see you again 🍀 Keep bee-ing so full of positive energy, it's inspiring ❤`,
-      reviewerName: "Sonja Tatarin Ragaji, Serbia",
+      reviewerName: "Sonja Tatarin Ragaji, BEE IT Serbia",
       link: "https://www.linkedin.com/in/sonja-tatarin-ragaji-064398162/",
     },
   ];
@@ -52,13 +52,15 @@ export default function SimpleSlider() {
         {TestimonilContent.map((val, i) => (
           <div className="testmonial-box media" key={i}>
             <div className="avatar">
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  `/img/testimonial/${val.imageName}.jpeg`
-                }
-                alt="review comments"
-              ></img>
+              <a href={val.link} target="_blank">
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    `/img/testimonial/${val.imageName}.jpeg`
+                  }
+                  alt="review comments"
+                ></img>
+              </a>
             </div>
             {/* End avatar */}
             <div className="testmonial-text media-body">

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.23e00f38.chunk.css",
-    "main.js": "/personalwebsite/static/js/main.174af7e3.chunk.js",
-    "main.js.map": "/personalwebsite/static/js/main.174af7e3.chunk.js.map",
-    "runtime-main.js": "/personalwebsite/static/js/runtime-main.2110c407.js",
-    "runtime-main.js.map": "/personalwebsite/static/js/runtime-main.2110c407.js.map",
-    "static/css/2.4e29acac.chunk.css": "/personalwebsite/static/css/2.4e29acac.chunk.css",
-    "static/js/2.cc93ff65.chunk.js": "/personalwebsite/static/js/2.cc93ff65.chunk.js",
-    "static/js/2.cc93ff65.chunk.js.map": "/personalwebsite/static/js/2.cc93ff65.chunk.js.map",
-    "static/js/3.69464eef.chunk.js": "/personalwebsite/static/js/3.69464eef.chunk.js",
-    "static/js/3.69464eef.chunk.js.map": "/personalwebsite/static/js/3.69464eef.chunk.js.map",
-    "index.html": "/personalwebsite/index.html",
-    "static/css/2.4e29acac.chunk.css.map": "/personalwebsite/static/css/2.4e29acac.chunk.css.map",
-    "static/css/main.23e00f38.chunk.css.map": "/personalwebsite/static/css/main.23e00f38.chunk.css.map",
-    "static/js/2.cc93ff65.chunk.js.LICENSE.txt": "/personalwebsite/static/js/2.cc93ff65.chunk.js.LICENSE.txt",
-    "static/media/Chadi_Resume.925dfc87.pdf": "/personalwebsite/static/media/Chadi_Resume.925dfc87.pdf",
-    "static/media/main.scss": "/personalwebsite/static/media/icomoon.26fba056.ttf",
-    "static/media/slick-theme.css": "/personalwebsite/static/media/slick.c94f7671.ttf"
+    "main.css": "/static/css/main.48a0c7c2.chunk.css",
+    "main.js": "/static/js/main.afa3a590.chunk.js",
+    "main.js.map": "/static/js/main.afa3a590.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b19f5246.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b19f5246.js.map",
+    "static/css/2.81c66f03.chunk.css": "/static/css/2.81c66f03.chunk.css",
+    "static/js/2.cc93ff65.chunk.js": "/static/js/2.cc93ff65.chunk.js",
+    "static/js/2.cc93ff65.chunk.js.map": "/static/js/2.cc93ff65.chunk.js.map",
+    "static/js/3.69464eef.chunk.js": "/static/js/3.69464eef.chunk.js",
+    "static/js/3.69464eef.chunk.js.map": "/static/js/3.69464eef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.81c66f03.chunk.css.map": "/static/css/2.81c66f03.chunk.css.map",
+    "static/css/main.48a0c7c2.chunk.css.map": "/static/css/main.48a0c7c2.chunk.css.map",
+    "static/js/2.cc93ff65.chunk.js.LICENSE.txt": "/static/js/2.cc93ff65.chunk.js.LICENSE.txt",
+    "static/media/Chadi_Resume.925dfc87.pdf": "/static/media/Chadi_Resume.925dfc87.pdf",
+    "static/media/main.scss": "/static/media/icomoon.26fba056.ttf",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2110c407.js",
-    "static/css/2.4e29acac.chunk.css",
+    "static/js/runtime-main.b19f5246.js",
+    "static/css/2.81c66f03.chunk.css",
     "static/js/2.cc93ff65.chunk.js",
-    "static/css/main.23e00f38.chunk.css",
-    "static/js/main.174af7e3.chunk.js"
+    "static/css/main.48a0c7c2.chunk.css",
+    "static/js/main.afa3a590.chunk.js"
   ]
 }

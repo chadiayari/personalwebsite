@@ -31,12 +31,11 @@ const HeaderFluid = () => {
           <div className=" header-transparent">
             {/* Brand */}
             <Link to="/">
-               <img
+              <img
                 className="navbar-logo"
-                src={process.env.PUBLIC_URL +"/img/logo/logo.png"}
+                src={process.env.PUBLIC_URL + "/img/logo/logo.png"}
                 alt="Chadi's logo"
-              /> 
-          
+              />
             </Link>
             {/* / */}
             {/* Mobile Toggle */}
@@ -61,7 +60,10 @@ const HeaderFluid = () => {
               }
             >
               <Link to="/" className="sidebar-logo">
-                <img src="img/logo/logo-light.svg" alt="brand" />
+                <img
+                  src={process.env.PUBLIC_URL + "/img/logo/logo.png"}
+                  alt="chadi ayari"
+                />
               </Link>
               <Scrollspy
                 className="anchor_nav navbar-nav ml-auto"

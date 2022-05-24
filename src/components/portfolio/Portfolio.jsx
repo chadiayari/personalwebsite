@@ -120,38 +120,41 @@ const Portfolio = () => {
                       key={i}
                     >
                       <div className="portfolio-box-01">
-                          <div className="portfolio-info">
-                            <h5>
-                              <a href={val.portfolioLink} target="_blank">
-                                {val.title}
-                              </a>
-                            </h5>
-                            <span>{val.subTitle}</span>
-                          </div>
-                          {/* End .portfolio-info */}
-                          <a
-                            href={`img/portfolio/${val.img}.png`}
-                            className="gallery-link"
-                          >
-                            <div class="flip-card">
-                              <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                  <img
-                                    src={`img/portfolio/${val.img}.png`}
-                                    alt={val.alterText}
-                                  />{" "}
-                                </div>
-                                <div class="flip-card-back">
-                                  <h1>John Doe</h1>
-                                  <p>Architect & Engineer</p>
-                                  <p>We love that guy</p>
-                                </div>
+                        <div className="portfolio-info">
+                          <h5>
+                            <a href={val.portfolioLink} target="_blank">
+                              {val.title}
+                            </a>
+                          </h5>
+                          <span>{val.subTitle}</span>
+                        </div>
+                        {/* End .portfolio-info */}
+                        <a
+                          href={`img/portfolio/${val.img}.png`}
+                          className="gallery-link"
+                        >
+                          <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img
+                                  src={
+                                    process.env.PUBLIC_URL +
+                                    `/img/portfolio/${val.img}.png`
+                                  }
+                                  alt={val.alterText}
+                                />{" "}
+                              </div>
+                              <div class="flip-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
                               </div>
                             </div>
-                          </a>
+                          </div>
+                        </a>
 
-                          {/* End gallery link */}
-                          {/* <a
+                        {/* End gallery link */}
+                        {/* <a
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
@@ -159,8 +162,8 @@ const Portfolio = () => {
                           >
                             <span className="ti-link"></span>
                           </a> */}
-                          {/* End .portfolio-icon */}
-                        </div>
+                        {/* End .portfolio-icon */}
+                      </div>
                     </div>
                   ))}
                 </div>

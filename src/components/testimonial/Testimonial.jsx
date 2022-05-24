@@ -53,7 +53,10 @@ export default function SimpleSlider() {
           <div className="testmonial-box media" key={i}>
             <div className="avatar">
               <img
-                src={`img/testimonial/${val.imageName}.jpeg`}
+                src={
+                  process.env.PUBLIC_URL +
+                  `/img/testimonial/${val.imageName}.jpeg`
+                }
                 alt="review comments"
               ></img>
             </div>

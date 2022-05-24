@@ -19,7 +19,10 @@ const NotFound = () => {
                   Whoops, it looks like the page you request wasn't found.
                 </p>
                 <div className="m-30px-tb">
-                  <img src="img/404-page.svg" alt="page not found" />
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/404-page.svg"}
+                    alt="page not found"
+                  />
                 </div>
                 <div className="btn-bar mt-4">
                   <Link className="px-btn px-btn-theme" to="/">

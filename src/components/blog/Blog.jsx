@@ -29,7 +29,10 @@ const Blog = () => {
                 <span>14</span>
                 <small>Jan</small>
               </div>
-              <img src="img/blog/blog-1.jpg" alt="blog post"></img>
+              <img
+                src={process.env.PUBLIC_URL + "/img/blog/blog-1.jpg"}
+                alt="blog post"
+              ></img>
             </div>
             {/* End blog-img */}
 
@@ -54,7 +57,10 @@ const Blog = () => {
                 <span>07</span>
                 <small>Aug</small>
               </div>
-              <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+              <img
+                src={process.env.PUBLIC_URL + "/img/blog/blog-2.jpg"}
+                alt="blog post"
+              ></img>
             </div>
             {/* End blog-img */}
 
@@ -79,7 +85,10 @@ const Blog = () => {
                 <span>22</span>
                 <small>Apr</small>
               </div>
-              <img src="img/blog/blog-3.jpg" alt="blog post"></img>
+              <img
+                src={process.env.PUBLIC_URL + "/img/blog/blog-3.jpg"}
+                alt="blog post"
+              ></img>
             </div>
             {/* End blog-img */}
 
@@ -110,7 +119,10 @@ const Blog = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/cancel.svg"}
+              alt="close icon"
+            />
           </button>
           {/* End close icon */}
 
@@ -118,7 +130,10 @@ const Blog = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-1.jpg" alt="blog post"></img>
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/blog/blog-1.jpg"}
+                    alt="blog post"
+                  ></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">

@@ -10,7 +10,7 @@ export default function SimpleSlider() {
     infinite: true,
     speed: 900,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: false,
     margin: 30,
     responsive: [

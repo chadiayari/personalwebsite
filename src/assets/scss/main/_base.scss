@@ -17,9 +17,11 @@ body {
 .font-alt {
   font-family: $px-font-alt;
 }
+
 .text-center {
   text-align: center;
 }
+
 img {
   max-width: 100%;
 }
@@ -31,15 +33,18 @@ img {
 a {
   color: $px-theme;
   transition: 0.3s;
+
   @include px-hover {
     color: darken($px-theme, 8%);
     text-decoration: none;
   }
 }
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
 mark {
   background-image: linear-gradient($px-theme, $px-theme);
   background-size: 100% 3px;
@@ -49,6 +54,7 @@ mark {
   padding: 0;
   color: currentColor;
 }
+
 .form-control {
   display: block;
   width: 100%;
@@ -64,10 +70,12 @@ mark {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
 }
+
 .invalid-feedback {
   width: 100%;
   margin-top: 5px;
@@ -75,6 +83,7 @@ mark {
   color: #dc3545;
   display: block;
 }
+
 .valid-feedback {
   width: 100%;
   margin-top: 5px;
@@ -82,6 +91,7 @@ mark {
   color: #198754;
   display: block;
 }
+
 .scroll_up {
   position: fixed;
   right: 20px;
@@ -99,32 +109,40 @@ mark {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
   font-size: 20px;
   cursor: pointer;
+
   &:hover {
     background: $px-theme;
     color: #fff;
     transform: translateY(-5px);
   }
+
   span {
     font-weight: 600;
   }
 }
+
 @media screen and (max-width: 767px) {
   .text-sm-center {
     text-align: center;
   }
 }
+
 .form-group {
   margin-bottom: 1rem;
 }
+
 textarea.form-control {
   height: auto;
 }
+
 .me-auto {
   margin-right: auto !important;
 }
+
 a {
   cursor: pointer !important;
 }
+
 /* ----------------------
 *	Loading
 ---------------------------*/
@@ -137,6 +155,7 @@ a {
   background: $px-theme;
   z-index: 99999;
 }
+
 .load-circle {
   position: fixed;
   top: 0;
@@ -146,10 +165,12 @@ a {
   margin: auto;
   width: 50px;
   height: 50px;
+
   span {
     display: inline-block;
     width: 64px;
     height: 64px;
+
     &:after {
       content: " ";
       display: block;
@@ -168,6 +189,7 @@ a {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -178,6 +200,7 @@ a {
 ---------------------------*/
 .owl-dots {
   text-align: center;
+
   .owl-dot {
     display: inline-block;
     vertical-align: top;
@@ -188,6 +211,7 @@ a {
     @include transition(ease all 0.55s);
     border-radius: 50%;
     margin: 0 5px;
+
     &.active {
       background: $px-dark;
     }
@@ -210,9 +234,11 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
   @include down-lg {
     padding: 100px 0;
   }
+
   @include down-sm {
     padding: 80px 0;
   }
@@ -221,6 +247,7 @@ a {
     font-weight: 700;
     margin-bottom: 15px;
     color: $px-white;
+
     @include down-md {
       font-size: 22px;
     }
@@ -236,6 +263,7 @@ a {
   list-style: none;
   background: none;
   border-radius: 0;
+
   li {
     display: inline-block;
     vertical-align: middle;
@@ -243,9 +271,11 @@ a {
     font-weight: 400;
     position: relative;
     color: $px-white;
-    + li {
+
+    +li {
       padding-left: 17px;
       margin-left: 17px;
+
       &:after {
         content: "";
         position: absolute;
@@ -260,6 +290,7 @@ a {
         margin: auto;
       }
     }
+
     a {
       color: $px-theme;
     }

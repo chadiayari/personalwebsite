@@ -17,19 +17,19 @@ const ServiceContent = [
     icon: "ti-layout",
     no: "03",
     service: "UI/UX",
-    title: "Attractive User Interface, interactive User Experience.",
+    title: "Attractive User Interface. Interactive User Experience.",
   },
   {
     icon: "ti-brush-alt",
     no: "04",
     service: "CLEAN CODE",
-    title: "Easily understandble, easily exchangeable.",
+    title: "Easily understandble. Easily exchangeable.",
   },
   {
     icon: "ti-time",
     no: "05",
     service: "PUNCTUAL",
-    title: "Getting the job done within the exact agreed amount of time.",
+    title: "Getting the job done within the exact agreed time frame.",
   },
   {
     icon: "ti-world",

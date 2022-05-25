@@ -6,7 +6,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 const tabList = ["All", "Web Dev", "Mobile Dev", "AI"];
 const AllPortfolioContent = [
   {
-    img: "1",
+    img: "2",
     title: "Buying Shares Mobile App",
     subTitle: "Flutter - NodeJS - MongoDB",
     alterText: "Motion Graphy",
@@ -20,7 +20,7 @@ const AllPortfolioContent = [
     portfolioLink: "https://abcdriving.ch",
   },
   {
-    img: "2",
+    img: "1",
     title: "College Mobile App",
     subTitle: "Flutter - Flask - MongoDB",
     alterText: "Business Mockup",

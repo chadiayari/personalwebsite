@@ -40,7 +40,7 @@ export default function SimpleSlider() {
     // },
     {
       imageName: "testimonial2",
-      desc: `  Dear Chadi, it was real pleasure meeting and collaborating with you, and especially have fun with you 😊 Wish you all the best in upcoming professional succeses and looking forward to see you again 🍀 Keep bee-ing so full of positive energy, it's inspiring ❤`,
+      desc: `  Dear Chadi, it was real pleasure meeting and collaborating with you 😊 Wish you all the best in upcoming professional succeses and looking forward to see you again 🍀 Keep bee-ing so full of positive energy, it's inspiring ❤`,
       reviewerName: "Sonja Tatarin Ragaji, BEE IT Serbia",
       link: "https://www.linkedin.com/in/sonja-tatarin-ragaji-064398162/",
     },

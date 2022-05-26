@@ -32,7 +32,7 @@ const Slider = () => {
                 </h1>
                 <div className="btn-bar mt-4">
                   <a className="px-btn px-btn-theme btn-md" href="#about">
-                    See Who I AM
+                    Discover more
                   </a>
                 </div>
               </div>

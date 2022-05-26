@@ -1,4 +1,5 @@
 import React from "react";
+import Collapsible from "react-collapsible";
 
 const Skills = () => {
   return (
@@ -15,6 +16,15 @@ const Skills = () => {
                 Mobile Engineer <i>(half time, remote)</i>
               </h6>
               <p>Towards Zero Waste, Sweden</p>
+              <div className="collapsible">
+                <Collapsible trigger="Read more">
+                  <p className="collapsible-content">
+                    Developing a mobile and web app using Flutter, Restful APIs
+                    using Django. <br />
+                    Working in Agile method.
+                  </p>
+                </Collapsible>
+              </div>
             </li>
             <li>
               <span className="theme-bg">02/2022-Present</span>
@@ -22,16 +32,42 @@ const Skills = () => {
                 Mobile Engineer <i>(full time, physical presence)</i>
               </h6>
               <p>Pillai College, India</p>
+              <div className="collapsible">
+                <Collapsible trigger="Read more">
+                  <p className="collapsible-content">
+                    Developing a mobile app using Flutter, Restful APIs using
+                    Flask, and a MongoDB database.
+                  </p>
+                </Collapsible>
+              </div>
             </li>
             <li>
               <span className="theme-bg">06/2021-09/2021</span>
               <h6>SFCC Software Engineer</h6>
               <p>Bee IT, Serbia</p>
+              <div className="collapsible">
+                <Collapsible trigger="Read more">
+                  <p className="collapsible-content">
+                    Worked as backend software engineer, developing an ecommerce
+                    web app. <br />
+                    Used JavaScript as a language, and SFCC as a CMS.
+                  </p>
+                </Collapsible>
+              </div>
             </li>
             <li>
               <span className="theme-bg">07/2020-09/2020</span>
               <h6>Frontend Web Developer</h6>
               <p>ElBoita, Tunisia</p>
+              <div className="collapsible">
+                <Collapsible trigger="Read more">
+                  <p className="collapsible-content">
+                    Worked on ecommerce website, using Wordpress. <br />
+                    Designed pages, created newsletter email form, and user
+                    signup and login.
+                  </p>
+                </Collapsible>
+              </div>
             </li>
           </ul>
           {/* End  .aducation-box */}

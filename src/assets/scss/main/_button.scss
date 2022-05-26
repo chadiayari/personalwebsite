@@ -20,13 +20,16 @@
     padding: 3px 30px;
     font-size: 18px;
     letter-spacing: 1px;
+
     @media screen and (max-width: 767px) {
       padding: 0 25px;
     }
   }
+
   &.px-btn-theme {
     background: $px-theme;
     color: $px-white;
+
     &:after {
       content: "";
       position: absolute;
@@ -39,8 +42,10 @@
       background: $px-dark;
       z-index: -1;
     }
+
     &:hover {
       color: $px-white;
+
       &:after {
         width: 100%;
         left: auto;
@@ -48,10 +53,12 @@
       }
     }
   }
+
   &.px-btn-white {
     background: $px-white;
     border-color: $px-white;
     color: $px-dark;
+
     &:hover {
       background: transparent;
       color: $px-white;

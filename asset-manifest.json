@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcdef537.chunk.css",
-    "main.js": "/static/js/main.e470cb5b.chunk.js",
-    "main.js.map": "/static/js/main.e470cb5b.chunk.js.map",
+    "main.css": "/static/css/main.b002fce3.chunk.css",
+    "main.js": "/static/js/main.51db190e.chunk.js",
+    "main.js.map": "/static/js/main.51db190e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ef70e434.js",
     "runtime-main.js.map": "/static/js/runtime-main.ef70e434.js.map",
     "static/css/2.81c66f03.chunk.css": "/static/css/2.81c66f03.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.4eb4ac7d.chunk.js.map": "/static/js/3.4eb4ac7d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.81c66f03.chunk.css.map": "/static/css/2.81c66f03.chunk.css.map",
-    "static/css/main.fcdef537.chunk.css.map": "/static/css/main.fcdef537.chunk.css.map",
+    "static/css/main.b002fce3.chunk.css.map": "/static/css/main.b002fce3.chunk.css.map",
     "static/js/2.e9520475.chunk.js.LICENSE.txt": "/static/js/2.e9520475.chunk.js.LICENSE.txt",
     "static/media/Chadi_Resume.925dfc87.pdf": "/static/media/Chadi_Resume.925dfc87.pdf",
     "static/media/main.scss": "/static/media/icomoon.26fba056.ttf",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.ef70e434.js",
     "static/css/2.81c66f03.chunk.css",
     "static/js/2.e9520475.chunk.js",
-    "static/css/main.fcdef537.chunk.css",
-    "static/js/main.e470cb5b.chunk.js"
+    "static/css/main.b002fce3.chunk.css",
+    "static/js/main.51db190e.chunk.js"
   ]
 }

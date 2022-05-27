@@ -6,7 +6,6 @@ import Service from "../../components/service/Service";
 import Skills from "../../components/skills/Skills";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/Blog";
 import Contact from "../../components/contact/Contact";
 import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
@@ -37,6 +36,7 @@ const HomeTwo = () => {
             </div>
           </div>
           {/* End .row */}
+
           <Service />
         </div>
       </section>

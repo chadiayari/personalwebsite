@@ -9,6 +9,7 @@ const Skills = () => {
           <div className="sm-title">
             <h4 className="font-alt">Work Experience</h4>
           </div>
+
           <ul className="aducation-box dark-bg">
             <li>
               <span className="theme-bg">01/2022-Present</span>

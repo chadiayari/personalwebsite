@@ -6,10 +6,8 @@ import Service from "../../components/service/Service";
 import Skills from "../../components/skills/Skills";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/Blog";
 import Contact from "../../components/contact/Contact";
 import Footer from "../../components/footer/Footer";
-import Cube from "../../components/cube.js";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeTwo = () => {
@@ -38,6 +36,7 @@ const HomeTwo = () => {
             </div>
           </div>
           {/* End .row */}
+
           <Service />
         </div>
       </section>
@@ -67,9 +66,6 @@ const HomeTwo = () => {
       <div className="section testimonial">
         <div className="container">
           <Testimonial />
-        </div>
-        <div>
-          <Cube />
         </div>
       </div>
       {/* End testimonial */}

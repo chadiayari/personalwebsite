@@ -1,7 +1,7 @@
 {
   "homepage": "https://www.chadiayari.com",
   "name": "personalwebsite",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

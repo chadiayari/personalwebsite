@@ -11,7 +11,9 @@ import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeTwo = () => {
-  useDocumentTitle("Chadi's Personal Portfolio");
+  useDocumentTitle(
+    "Chadi Ayari, Full Stack Software Engineer, offering expertise in both mobile and web development. Check out mypersonal website to hire or consult."
+  );
   return (
     <div className="home-dark">
       <Header />
